@@ -3,5 +3,5 @@
     "jest": true,
     "node": true
   },
-  "extends": ["@ucudal", "pligin:prettier/recommended"]
+  "extends": ["@ucudal", "plugin:prettier/recommended"]
 }
