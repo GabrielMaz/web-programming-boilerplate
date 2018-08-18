@@ -1,0 +1,27 @@
+body {
+  background-color: aquamarine;
+  color: firebrick;
+  text-align: center;
+}
+
+p {
+  border: 2px solid firebrick;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+span {
+  padding: 5px;
+  display: block;
+  width: 200px;
+}
+
+#Team {
+  background-color: firebrick;
+  color: aquamarine;
+}
+
+a {
+  display: block;
+}
