@@ -5,16 +5,17 @@ body {
 }
 
 p {
-  border: 2px solid firebrick;
+  border: 3px solid firebrick;
   display: inline-block;
+  width: 200px;
   margin-top: 20px;
   margin-bottom: 20px;
+  box-sizing: border-box;
 }
 
 span {
   padding: 5px;
   display: block;
-  width: 200px;
 }
 
 #Team {
