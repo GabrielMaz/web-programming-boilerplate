@@ -4,21 +4,19 @@ body {
   text-align: center;
 }
 
-p {
+.container {
   border: 3px solid firebrick;
-  display: inline-block;
   width: 200px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px auto;
   box-sizing: border-box;
+  padding: 0px;
 }
 
-span {
+div {
   padding: 5px;
-  display: block;
 }
 
-#Team {
+#team {
   background-color: firebrick;
   color: aquamarine;
 }
