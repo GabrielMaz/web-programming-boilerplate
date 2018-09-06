@@ -55,3 +55,12 @@ body {
   margin: 15px;
   flex: 1;
 }
+
+
+let e = document.querySelector(".start");
+
+let ft = e.textContent;
+
+let w = LongestString(ft);
+
+replaceWord(w);
