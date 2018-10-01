@@ -18,3 +18,12 @@ function replaceWord() {
 
   return word;
 }
+
+function replaceWordItalic() {
+  let str = document.querySelector(".text").textContent;
+  const word = LongestString(str);
+  str = str.replace(word, word.italics());
+  document.querySelector(".text").innerHTML = str;
+
+  return word;
+}
